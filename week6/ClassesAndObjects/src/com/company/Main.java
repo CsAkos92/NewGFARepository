@@ -70,8 +70,13 @@ public class Main {
 //        System.out.println(red.inkAmount);
 //        System.out.println(red.width);
 
-
-
+        Counter num = new Counter(0);
+        num.add();
+        num.get();
+        num.add(6);
+        num.get();
+        num.reset();
+        num.get();
 
 
     }

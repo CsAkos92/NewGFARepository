@@ -6,7 +6,7 @@ public class Sharpie {
     String color;
     float width;
 
-    public Sharpie (String color, float width) {
+    public Sharpie(String color, float width) {
         this.color = color;
         this.width = width;
     }
