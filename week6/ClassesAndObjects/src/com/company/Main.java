@@ -37,9 +37,26 @@ public class Main {
         oneEngeneer.publicationDate = "2017.03.28.";
         oneEngeneer.text = "Daniel Hanley, a cybersecurity engineer at IBM, doesn’t want to be the center of attention. When I asked to take his picture outside one of IBM’s New York City offices, he told me that he wasn’t really into the whole organizer profile thing.";
 
+        Animal tiger = new Animal();
+        tiger.thirst = 50;
+        tiger.hunger = 50;
 
+        tiger.eat();
+        tiger.drink();
 
+        System.out.println(tiger.hunger);
+        System.out.println(tiger.thirst);
 
+        tiger.play();
+        tiger.play();
+
+        System.out.println(tiger.hunger);
+        System.out.println(tiger.thirst);
+
+        tiger.drink();
+
+        System.out.println(tiger.hunger);
+        System.out.println(tiger.thirst);
 
 
     }
