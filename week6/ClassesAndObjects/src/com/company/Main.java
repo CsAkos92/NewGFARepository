@@ -44,19 +44,34 @@ public class Main {
         tiger.eat();
         tiger.drink();
 
-        System.out.println(tiger.hunger);
-        System.out.println(tiger.thirst);
+//        System.out.println(tiger.hunger);
+//        System.out.println(tiger.thirst);
 
         tiger.play();
         tiger.play();
 
-        System.out.println(tiger.hunger);
-        System.out.println(tiger.thirst);
+//        System.out.println(tiger.hunger);
+//        System.out.println(tiger.thirst);
 
         tiger.drink();
 
-        System.out.println(tiger.hunger);
-        System.out.println(tiger.thirst);
+//        System.out.println(tiger.hunger);
+//        System.out.println(tiger.thirst);
+
+
+        Sharpie red = new Sharpie("red", 6);
+//        System.out.println(red.color);
+//        System.out.println(red.inkAmount);
+//        System.out.println(red.width);
+
+        red.use();
+
+//        System.out.println(red.color);
+//        System.out.println(red.inkAmount);
+//        System.out.println(red.width);
+
+
+
 
 
     }
