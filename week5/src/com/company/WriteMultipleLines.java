@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 public class WriteMultipleLines {
     public static void main(String[] args) {
-        writeLines("src\\com\\company\\my-file.txt", "apple", 555);
+        writeLines("src\\com\\company\\my-file.txt", "apple", 5);
 
 
     }
